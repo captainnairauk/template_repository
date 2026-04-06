@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "webpack serve --open --config webpack.dev.js",
     "lint": "eslint ./src --ext .ts --ext .js --ext .jsx",
     "lint:fix": "npm run lint -- --fix",
@@ -20,6 +20,7 @@
     "eslint": "^9.38.0",
     "html-loader": "^5.1.0",
     "html-webpack-plugin": "^5.6.4",
+    "jest": "^30.3.0",
     "prettier": "3.6.2",
     "style-loader": "^4.0.0",
     "webpack": "^5.102.1",
